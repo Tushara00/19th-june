@@ -6,7 +6,7 @@ public_folder: "/assets/blog"
 collections:
 - name: "blog"
 label: "Blog"
- identifier_field: name
+identifier_field: name
 folder: "src/blog"
 create: true
 slug:
@@ -14,11 +14,11 @@ slug:
   clean_accents: true
   sanitize_replacement: "_"
 fields:
-  - label: "Title"
-    name: "title"
-    widget: "string"
-    pattern: ['.{20,}', "Must have at least 20 characters"]
-  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-  - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-  - {label: "Body", name: "body", widget: "markdown"}
-    comment: 'This is a multiline\ncomment'
+- label: "Title"
+name: "title"
+widget: "string"
+pattern: ['.{20,}', "Must have at least 20 characters"]
+- {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+- {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+- {label: "Body", name: "body", widget: "markdown"}
+comment: 'This is a multiline\ncomment'
