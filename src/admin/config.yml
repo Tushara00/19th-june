@@ -7,7 +7,7 @@ backend:
     folder: "src/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection # Branch to update (optional; defaults to master)
      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    collections:
+  collections:
  - name: "blog"
    label: "Blog"
    folder: "src/blog"
