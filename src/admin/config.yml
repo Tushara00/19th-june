@@ -19,11 +19,11 @@ collections:
       - {label: "Image Caption", name: "imageAlt", widget: "string"}
       - {label: "body", name: "body", widget: "markdown"}
 - name: "home"
-    label: "Home"
-    files:
-      - file: "src/index.html"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - {name: "title", label: "Title", widget: "string"}
-          - {name: "content", label: "Content", widget: "html"}      
+  label: "Home"
+  files:
+    - file: "src/index.html"
+      label: "Home Page"
+      name: "home"
+      fields:
+        - {name: "title", label: "Title", widget: "string"}
+        - {name: "content", label: "Content", widget: "html"}      
