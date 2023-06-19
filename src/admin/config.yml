@@ -8,6 +8,5 @@ backend:
     create: true # Allow users to create new documents in this collection # Branch to update (optional; defaults to master)
      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
      fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
