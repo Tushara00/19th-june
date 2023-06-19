@@ -18,9 +18,9 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Image Caption", name: "imageAlt", widget: "string"}
       - {label: "body", name: "body", widget: "markdown"}
-- name: "home"
-  label: "Home"
-  files:
+ - name: "home"
+   label: "Home"
+   files:
     - file: "src/index.html"
       label: "Home Page"
       name: "home"
