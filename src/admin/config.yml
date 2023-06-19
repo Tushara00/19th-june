@@ -21,7 +21,7 @@ collections:
  - name: "home"
    label: "Home"
    files:
-    - file: "src/_includes/components/base.html"
+    - file: "src/index.html"
       label: "Home Page"
       name: "home"
       fields:
